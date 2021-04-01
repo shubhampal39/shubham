@@ -1,0 +1,149 @@
+/* defult values */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#bg {
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 80px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+nav img {
+    width: 110px;
+}
+nav #links {
+    display: flex;
+    align-items: center;
+}
+
+nav #links a {
+    margin-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: black;
+    font-weight: 700;
+    opacity: 0.6;
+    letter-spacing: 4px;
+}
+
+nav #links i {
+    margin-left: 50px;
+}
+
+nav #links a:nth-child(2) {
+    opacity: 0.2;
+}
+
+#sections {
+    display: flex;
+    width: 100%;
+    /* height: calc(100% -80px); */
+    background-color: aqua;
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    left: 100%;
+    padding: 100px;
+    /* background-color: #dadada; */
+}
+
+#left #smaline {
+    width: 90px;
+    height: 3px;
+    margin-top: 100px;
+    background-color: black;
+}
+
+#left h4 {
+    /* font-family: ; */
+    font-size: 50px;
+    margin-top: 10px;
+}
+#left img {
+    width: 650px;
+    margin-top: 30px;
+}
+
+#left > h5 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #dadada;
+}
+#left h5 span {
+    color: rgb(82, 184, 218);
+}
+
+#playbtn img {
+    width: 130px;
+}
+#playbtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#playbtn h5 {
+    margin-top: 20px;
+    opacity: 0.9;
+    margin-left: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.bold {
+    font-weight: 800;
+}
+#contact {
+    margin-top: 200px;
+}
+#contact h3 {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-size: 10px;
+    opacity: 0.8;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#contact h6 {
+    font-size: 12px;
+    margin-top: 5px;
+}
+#contact h6 span {
+    color: #04c2c7;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+}
+
+#splash {
+    position: absolute;
+    left: -60px;
+    top: 70%;
+    width: 150px;
+}
