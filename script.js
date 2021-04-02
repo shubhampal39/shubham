@@ -2,9 +2,18 @@
 var menu=document.querySelector('#menu');
 var bg=document.querySelector('#bg');
 menu.addEventListener('click',function(){
-    bg.style.transform='scale(.8)';
-    bg.style.borderRadius='10px';
-    bg.style.boxShadow='0 150px 45px -100px rgba(0,0,0,0.2)';
+    if(bg.style.transform==='scale(1)')
+    {
+        bg.style.transform='scale(.8)';
+        bg.style.borderRadius='10px';
+        bg.style.boxShadow='0 150px 45px -100px rgba(0,0,0,0.2)';
+    }
+    else{
+        bg.style.transform='scale(1)';
+        bg.style.borderRadius='0px';
+        bg.style.boxShadow='none';
+    }
+    
 })
 
 var tl = gsap.timeline();
